@@ -51,7 +51,7 @@ const Section2 = () => {
                         {/* part 1 */}
                         <div className="col-12 part1">
                             <h3>Collections</h3>
-                            <div className="row">
+                            <div className="row dis">
 
 
                                 <div className="col-md-9 col-8">

@@ -61,12 +61,12 @@ const Section4 = () => {
                                 <div className="row">
 
                                     {/* part1 */}
-                                    <div className="col-md-6 col-8 pe-0">
+                                    <div className="col-md-6 col-sm-8 col-6 pe-0">
                                         <input type="email" placeholder="Email" className="form-control py-2 fs-md-5" />
                                     </div>
 
                                     {/* part 2 */}
-                                    <div className="col-md-6 col-4 ps-1">
+                                    <div className="col-md-6 col-sm-4 col-sm-6 col-6 ps-1">
                                         <button className="btn btn-danger py-2 fs-md-5 fw-light ">Share App Link</button>
                                     </div>
 
@@ -77,14 +77,14 @@ const Section4 = () => {
                             {/* element 4 */}
                             <div className="col-12 mt-md-5 mt-4 ele2">
 
-                                <p className="fs-5">Download app from</p>
+                                <p className="fs-sm-5">Download app from</p>
 
                                 <div className="row">
-                                    <div className="col-md-3 col-4">
+                                    <div className="col-md-3 col-sm-4 col-5">
                                         <img src="MainPageAsset/10035.webp" alt="" className="d-block w-100" />
                                     </div>
 
-                                    <div className="col-md-3 col-4">
+                                    <div className="col-md-3 col-sm-4 col-5">
                                         <img src="MainPageAsset/10034.webp" alt="" className="d-block w-100" />
                                     </div>
                                 </div>

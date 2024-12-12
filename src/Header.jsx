@@ -38,7 +38,7 @@ const HeaderSection = () => {
                             <div className="col-md-6 col-8 ms-auto part2">
                                 <div className="row">
 
-                                    <div className="col-md-4 col-6 ">
+                                    <div className="col-md-4 col-6">
                                         <NavLink to="/invest" className="nav-link">
                                             <p className="p1">Investor Relations</p>
                                         </NavLink>
@@ -63,11 +63,11 @@ const HeaderSection = () => {
 
                     {/* Section 2 */}
 
-                    <div className="col-md-10 m-auto my-5 hsection2">
+                    <div className="col-md-10 m-auto my-md-5 hsection2">
 
 
                         {/* part1 */}
-                        <div className="col-md-4 col-6 m-auto mt-md-4 part1">
+                        <div className="col-md-4 col-sm-6 col-8 m-auto mt-md-4 part1">
                             <img src="MainPageAsset/10028.webp" alt="Zomato" className="d-block w-100" />
                         </div>
 
@@ -77,12 +77,12 @@ const HeaderSection = () => {
                         </div>
 
                         {/* part 3*/}
-                        <div className="col-md-8 m-auto mt-4">
-                            <div className="col-12 bg-white px-3 py-2 part3">
+                        <div className="col-md-8 col-12 m-auto mt-sm-4">
+                            <div className="col-12 bg-white px-3 py-sm-2 py-1 part3">
                                 <div className="row">
 
                                     {/* first element */}
-                                    <div className="col-5">
+                                    <div className="col-5 dis">
                                         <div className="row">
 
                                             <div className="col-2">
@@ -93,7 +93,7 @@ const HeaderSection = () => {
                                                 <input type="text" placeholder="Pune" className="form-control" />
                                             </div>
 
-                                            <div className="col-1">
+                                            <div className="col-sm-1 col-2">
                                                 <img src="MainPageAsset/10003.svg" alt="Location" />
                                             </div>
 
@@ -102,10 +102,10 @@ const HeaderSection = () => {
                                     </div>
 
                                     {/* second element */}
-                                    <div className="col-7">
+                                    <div className="col-md-7 col-12">
                                         <div className="row">
 
-                                            <div className=" col-md-1 col-2">
+                                            <div className=" col-1 e1">
                                                 <img src="MainPageAsset/10005.svg" alt="Location" />
                                             </div>
 

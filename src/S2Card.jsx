@@ -10,7 +10,7 @@ const S2Card = ({ path, para1, para2, web }) => {
     return (
         <StrictMode>
 
-            <div className="col-md-3 col-6 p-md-1 p-2">
+            <div className="col-md-3 col-md-6 col-sm-10 col-10 m-auto p-md-1 p-2">
                 <NavLink to={web}>
                     <div className="col-12 card1 p-0" style={{ backgroundImage: path }}>
                         <div className="col-12">

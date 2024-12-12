@@ -137,7 +137,7 @@ const FooterSec = () => {
         <StrictMode>
 
             <div className="col-12 footer px-4 ">
-                <div className="col-md-10 m-auto mt-1 pt-5">
+                <div className="col-md-10 col-12 m-auto mt-1 pt-5">
                     <div className="row">
 
 
@@ -146,7 +146,7 @@ const FooterSec = () => {
                             <div className="row">
 
                                 {/* part1 */}
-                                <div className="col-md-2 col-3 part1">
+                                <div className="col-md-2 col-sm-3 col-4 part1">
                                     <NavLink to="/">
                                         <img src="MainPageAsset/10028.webp" alt="" className='d-block w-100' />
                                     </NavLink>
@@ -184,7 +184,7 @@ const FooterSec = () => {
 
                                         <div className="col-md-4 col-3 icon py-2">
                                             <div className="row">
-                                                <div className="col-md-4 col-7 r1">
+                                                <div className="col-md-4 col-sm-7 col-8 r1">
                                                     <img src="MainPageAsset/10011.svg" alt="" className='d-block w-100' />
                                                 </div>
 
@@ -222,7 +222,7 @@ const FooterSec = () => {
 
 
                                 {/* part1 */}
-                                <div className="col-md-2 col-3 part1">
+                                <div className="col-md-2 col-sm-3 col-4 part1">
                                     <h5>ABOUT ZOMATO</h5>
 
                                     {
@@ -237,7 +237,7 @@ const FooterSec = () => {
                                 </div>
 
                                 {/* part 2 */}
-                                <div className="col-md-2 col-3 part1">
+                                <div className="col-md-2 col-sm-3 col-4 part1">
                                     <h5>ZOMAVERSE</h5>
 
                                     {
@@ -252,7 +252,7 @@ const FooterSec = () => {
                                 </div>
 
                                 {/* part 3 */}
-                                <div className="col-md-2 col-3 part1">
+                                <div className="col-md-2 col-sm-3 col-4 part1">
                                     <h5>FOR RESTAURANT</h5>
 
                                     {
@@ -267,7 +267,7 @@ const FooterSec = () => {
                                 </div>
 
                                 {/* part 4 */}
-                                <div className="col-md-2 col-3 part1">
+                                <div className="col-md-2 col-sm-3 col-4 part1">
                                     <h5>LEARN MORE</h5>
 
                                     {
@@ -306,13 +306,13 @@ const FooterSec = () => {
                                     </div>
 
                                     {/* element 2 */}
-                                    <div className="col-md-9 col-4 mt-3 m-auto">
+                                    <div className="col-md-9 col-sm-4 col-5 mt-3 m-auto">
                                         <img src="MainPageAsset/10035.webp" alt="" className='d-block w-md-75 w-100' />
                                     </div>
 
 
                                     {/* element 3 */}
-                                    <div className="col-md-9 col-4 mt-3 m-auto">
+                                    <div className="col-md-9 col-sm-4 col-5 mt-3 m-auto">
                                         <img src="MainPageAsset/10034.webp" alt="" className='d-block w-md-75 w-100' />
                                     </div>
 

@@ -84,3 +84,51 @@ body {
         }
     }
 }
+
+
+@media screen and (max-width:420px) and (min-width:360px){
+    
+    .hsection{
+        height: 50vh;
+    }
+
+
+
+    .hsection1{
+        
+        .part1{
+            font-size: 12px;
+        }
+
+        .part2{
+            .p1{
+                font-size: 10px !important;
+                font-weight: 500 !important;
+                text-align: center;
+            }
+        }
+    }
+
+
+    .hsection2{
+        margin: 4% 0% !important;
+
+        .part2{
+            p{
+                font-size: 16px !important;
+                font-weight: 500;
+            }
+        }
+
+        .e1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+
+        .dis{
+            display: none;
+        }
+    }
+}

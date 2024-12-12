@@ -8,7 +8,7 @@ const Sec3Card = ({title,places}) => {
         <StrictMode>
 
 
-            <div className="col-md-4 col-6 px-2">
+            <div className="col-md-4 col-sm-6 col-10 m-auto px-2">
                 <div className="col-12 card1 ">
 
                     <div className="row">
