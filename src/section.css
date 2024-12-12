@@ -570,8 +570,9 @@
             }
 
             h3 {
-                font-size: 20px;
+                font-size: 28px;
                 font-weight: 500;
+                padding-left: 3%;
             }
         }
 
@@ -620,16 +621,17 @@
             .card1 {
 
                 margin: 3% 0%;
-
+                
                 .ele1 {
+                    padding-bottom: 0%;
                     h4 {
-                        font-size: 16px;
+                        font-size: 14px;
                         font-weight: 500;
                     }
 
                     p {
                         line-height: 1;
-                        font-size: 12px;
+                        font-size: 10px;
                         font-size: 400;
                     }
                 }
@@ -760,6 +762,14 @@
     
     
     
+    }
+
+
+
+
+
+    .section1,.section2,.section3,.section4,.section5{
+        margin-bottom: 10% !important;
     }
 
 }

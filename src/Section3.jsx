@@ -272,7 +272,7 @@ const Section3 = () => {
                             <div className="col-md-4 col-sm-6 col-10 m-auto px-2">
                                 <div className="col-12 card1" onClick={()=>changeIcon()}>
 
-                                    <div className="row">
+                                    <div className="row px-2">
 
                                         {/* element 1 */}
                                         <div className="col-8 ele1 py-3 px-3">
