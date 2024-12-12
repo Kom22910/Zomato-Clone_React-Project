@@ -1,0 +1,206 @@
+.loginpage {
+
+    height: 100vh;
+    background-color: rgb(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0%;
+    z-index: 99;
+
+    .p1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .login_container {
+        position: relative;
+        top: 0%;
+        border-radius: 5px;
+        padding: 1.5% 1.5%;
+        background-color: white;
+
+    }
+
+
+
+    .section1,
+    .section2,
+    .section3,
+    .section5,
+    .section6 {
+        cursor: pointer;
+    }
+
+
+
+    .section1 {
+
+        h2 {
+            font-size: 35px;
+
+        }
+
+    }
+
+
+    .section2 {
+        .phone {
+            background-color: white;
+            padding: 1% 0%;
+            border-radius: 10px;
+            border: 1px solid rgba(0, 0, 0, 0.249);
+        }
+
+        input {
+            border: none;
+
+        }
+    }
+
+
+    .section3 {
+        button {
+            padding: 2% 0%;
+        }
+    }
+
+
+    .section5 {
+        .email {
+            background-color: white;
+            padding: 2% 0%;
+            padding-bottom: 0%;
+            border-radius: 7px;
+            border: 1px solid rgba(0, 0, 0, 0.301);
+            cursor: pointer;
+
+            .row {
+                justify-content: center;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 500;
+            }
+
+        }
+    }
+
+
+    .section6 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+}
+
+
+
+
+.signupPage {
+
+    height: 100vh;
+    background-color: rgb(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0%;
+    z-index: 99;
+
+    .p1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .login_container {
+        position: relative;
+        top: 0%;
+        border-radius: 5px;
+        padding: 1.5% 1.5%;
+        background-color: white;
+
+    }
+
+
+    .section1 {
+
+        h2 {
+            font-size: 35px;
+
+        }
+
+    }
+
+
+    .section2 {
+        
+
+        input {
+           border: 1px solid rgba(0, 0, 0, 0.253);
+        }
+    }
+
+
+    .section3 {
+        input{
+            width: 15px;
+            height: 15px;
+        }
+
+        span{
+            color: red;
+        }
+    }
+
+
+    .section5 {
+        .email {
+            background-color: white;
+            padding: 2% 0%;
+            padding-bottom: 0%;
+            border-radius: 7px;
+            border: 1px solid rgba(0, 0, 0, 0.301);
+            cursor: pointer;
+
+            .row {
+                justify-content: center;
+            }
+
+            p{
+                font-size: 16px;
+                font-weight: 500;
+            }
+
+        }
+    }
+
+
+    .section6 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+
+}
+
+
+
+
+.getapp{
+
+
+    .sec2,.sec3{
+        margin: auto;
+        margin-top: 6%;
+    }
+
+    .sec1{
+
+        img{
+            filter: invert(100%);
+        }
+    }
+}
