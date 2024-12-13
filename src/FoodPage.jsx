@@ -202,7 +202,7 @@ const FoodPage = () => {
         },
         {
             id: 8,
-            promo:null,
+            promo: null,
             path: "FoodPageAsset/10049.webp",
             w: 100,
             h: 100,
@@ -386,8 +386,8 @@ const FoodPage = () => {
             w: 125,
             h: 100,
             offer: <div className="rate px-3">
-                        <p>&#8377;100 OFF</p>
-                    </div>,
+                <p>&#8377;100 OFF</p>
+            </div>,
 
             title: "Haldiram's",
             star: 4.3,
@@ -402,8 +402,8 @@ const FoodPage = () => {
             w: 150,
             h: 100,
             offer: <div className="rate px-3">
-                        <p>&#8377;175 OFF</p>
-                    </div>,
+                <p>&#8377;175 OFF</p>
+            </div>,
 
             title: "Chaitanya Paranthas",
             star: 4.1,
@@ -466,24 +466,24 @@ const FoodPage = () => {
                 <div className="row">
 
                     {/* header section  */}
-                    <header className='col-10 m-auto p-4'>
+                    <header className='col-sm-10 m-auto p-sm-4 p-3'>
                         <div className="row">
 
                             {/* section 1 */}
-                            <div className="col-2 sec1">
+                            <div className="col-sm-2 col-4 sec1">
                                 <NavLink to='/'>
-                                    <img src="MainPageAsset/10028.webp" alt="" className='d-block w-75' />
+                                    <img src="MainPageAsset/10028.webp" alt="" className='d-block w-sm-75 w-100' />
                                 </NavLink>
                             </div>
 
                             {/* section 2 */}
-                            <div className="col-7">
-                                <div className="col-12">
-                                    <div className="col-12 bg-white px-3 py-2 part3">
+                            <div className="col-sm-7 col-8 ">
+                                <div className="col-12 py-2">
+                                    <div className="col-12 bg-white px-sm-3 py-sm-2 part3">
                                         <div className="row">
 
                                             {/* first element */}
-                                            <div className="col-5">
+                                            <div className="col-5 dis">
                                                 <div className="row">
 
                                                     <div className="col-2">
@@ -503,14 +503,14 @@ const FoodPage = () => {
                                             </div>
 
                                             {/* second element */}
-                                            <div className="col-7">
+                                            <div className="col-sm-7 col-11 m-auto " >
                                                 <div className="row">
 
-                                                    <div className="col-1">
+                                                    <div className="col-sm-1 col-2 flex-karo">
                                                         <img src="MainPageAsset/10005.svg" alt="Location" />
                                                     </div>
 
-                                                    <div className="col-11">
+                                                    <div className="col-sm-11 col-10  px-sm-2 px-0">
                                                         <input type="text" placeholder="Search for restaurant , cuisine or a dish" className="form-control border border-light" />
                                                     </div>
                                                 </div>
@@ -523,14 +523,14 @@ const FoodPage = () => {
 
 
                             {/* section 3 */}
-                            <div className="col-2 sec3 ms-auto">
+                            <div className="col-sm-2 col-5 sec3 ms-auto px-sm-2 dis">
                                 <div className="row">
 
-                                    <div className="col-5  m-auto fw-bold">
-                                        <p onClick={() => sethide({ login: true })} className='py-2 p1'>Log in</p>
+                                    <div className="col-sm-5 col-6 m-auto fw-bold px-sm-2 px-0">
+                                        <p onClick={() => sethide({ login: true })} className=' p1'>Log in</p>
                                     </div>
 
-                                    <div className="col-5 fw-bold  m-auto">
+                                    <div className="col-sm-5 col-6 fw-bold px-sm-2 px-0 m-auto">
                                         <p onClick={() => sethide({ sign: true })} className='p1'>Sign Up</p>
                                     </div>
                                 </div>
@@ -547,9 +547,9 @@ const FoodPage = () => {
                     <section className='col-12 m-auto p-0 py-5 '>
 
                         {/* section 1 */}
-                        <div className="col-12 p-2 py-5 section1">
+                        <div className="col-12 p-2 py-sm-5 py-4 section1">
                             <div className="row">
-                                <div className="col-10 m-auto">
+                                <div className="col-sm-10 col-11 m-auto">
 
 
                                     {/* part 1 */}
@@ -558,18 +558,18 @@ const FoodPage = () => {
                                     </div>
 
                                     {/* part 2 */}
-                                    <div className="col-12">
-                                        <div className="row px-5 my-5">
+                                    <div className="col-12 part2">
+                                        <div className="row px-sm-5 my-sm-5">
 
                                             {
                                                 cardinfo.map((val) => {
                                                     return (
-                                                        <div className="col-2" key={val.id}>
+                                                        <div className="col-sm-2 col-4 my-sm-0 my-1" key={val.id}>
                                                             <div className="col-12">
                                                                 <img src={val.path} alt="" className='d-block w-100 rounded-pill' />
                                                             </div>
                                                             <div className="col-12">
-                                                                <p className='text-center fs-4'>{val.p}</p>
+                                                                <p className='text-center fs-sm-4 '>{val.p}</p>
                                                             </div>
                                                         </div>
                                                     )
@@ -584,27 +584,27 @@ const FoodPage = () => {
 
 
                         {/* section 2 */}
-                        <div className="col-10 m-auto section2">
+                        <div className="col-sm-10 col-11 p-2 py-sm-5 py-4 m-auto section2">
 
                             {/* part 1 */}
                             <div className="col-12 first">
-                                <p>Inspiration for your first order</p>
+                                <p>Inspiration for your Brands</p>
                             </div>
 
                             {/* part 2 */}
                             <div className="col-12 second">
-                                <div className="row px-5 my-5">
+                                <div className="row px-sm-5 my-sm-5">
 
                                     {
                                         brandinfo.map((val) => {
                                             return (
-                                                <div className="col-2" key={val.id}>
+                                                <div className="col-sm-2 col-4 my-sm-0 my-2" key={val.id}>
                                                     <div className="col-12  image" style={{ backgroundColor: val.color }}>
                                                         <img src={val.path} alt="" className='d-block' />
                                                     </div>
-                                                    <div className="col-12">
-                                                        <p className='text-center fs-5 mb-0'>{val.p}</p>
-                                                        <p className='text-center'>31 min</p>
+                                                    <div className="col-12 para">
+                                                        <p className='text-center fs-sm-5 mb-0 p1'>{val.p}</p>
+                                                        <p className='text-center p2'>31 min</p>
                                                     </div>
                                                 </div>
                                             )
@@ -616,7 +616,7 @@ const FoodPage = () => {
 
 
                         {/* Section 3  */}
-                        <div className="col-10 m-auto section3 pb-5">
+                        <div className="col-sm-10 col-11 p-2 py-sm-5 py-4 m-auto section3 pb-5">
 
                             {/* part 1 */}
                             <div className="col-12 part1">
@@ -625,17 +625,17 @@ const FoodPage = () => {
 
 
                             <div className="col-12 part2">
-                                <div className="row px-3">
+                                <div className="row px-am-3">
+
+
 
                                     {/* cards */}
-
-
 
                                     {
                                         cardinfo2.map((val) => {
 
                                             return (
-                                                <div className="col-4 p-3" key={val.id}>
+                                                <div className="col-sm-4 col-10 m-auto p-sm-3 my-sm-0 my-3" key={val.id}>
                                                     <div className="col-12 card_part">
 
                                                         {/* card part 1 */}
@@ -668,7 +668,7 @@ const FoodPage = () => {
                                                                     <p className='a1'>{val.p1}</p>
                                                                 </div>
 
-                                                                <div className="col-4 ms-auto text-end">
+                                                                <div className="col-SM-4 col-6 ms-auto text-end">
                                                                     <p>&#8377;{val.price} for one</p>
                                                                 </div>
                                                             </div>
@@ -693,8 +693,8 @@ const FoodPage = () => {
                         </div>
 
                         {/* section 4 */}
-                        <div className="col-10 m-auto">
-                            <Section5/>
+                        <div className="col-sm-10 col-12 m-auto">
+                            <Section5 />
                         </div>
 
 
@@ -703,7 +703,7 @@ const FoodPage = () => {
 
 
                     {/* footer */}
-                    <FooterSec/>
+                    <FooterSec />
 
 
 

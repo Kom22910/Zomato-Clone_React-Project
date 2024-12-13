@@ -31,8 +31,8 @@ const GetAppPage = () => {
                         <div className="row">
 
                             {/* part 1 */}
-                            <div className="col-6">
-                                <div className="col-3 ms-auto">
+                            <div className="col-sm-6 col-4 pt-md-1 pt-2">
+                                <div className="col-sm-3 col-9 ms-auto ">
                                     <NavLink to="/">
                                         <img src="MainPageAsset/10028.webp" alt="Zomato" className="d-block w-100" />
                                     </NavLink>
@@ -40,15 +40,15 @@ const GetAppPage = () => {
                             </div>
 
                             {/* part2 */}
-                            <div className="col-3 m-auto">
+                            <div className="col-sm-3 col-7 m-sm-auto ms-auto part2">
                                 <div className="row">
 
-                                    <div className="col-4">
-                                        <p className="btn fs-5 w-100" onClick={() => sethide({ login: true })}>Log in</p>
+                                    <div className="col-sm-4 col-6 text-sm-center text-end">
+                                        <p className="btn fs-sm-5 fw-bold w-sm-100 text-center" onClick={() => sethide({ login: true })}>Log in</p>
                                     </div>
 
-                                    <div className="col-4">
-                                        <p className="btn fs-5" onClick={() => sethide({ sign: true })}>Sign Up</p>
+                                    <div className="col-sm-4 col-6 text-sm-center text-start">
+                                        <p className="btn w-sm-100 fs-sm-5 fw-bold" onClick={() => sethide({ sign: true })}>Sign Up</p>
                                     </div>
 
                                 </div>

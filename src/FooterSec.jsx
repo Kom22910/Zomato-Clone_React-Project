@@ -136,7 +136,7 @@ const FooterSec = () => {
     return (
         <StrictMode>
 
-            <div className="col-12 footer px-4 ">
+            <div className="col-12 footer px-4 py-sm-2 py-4 ">
                 <div className="col-md-10 col-12 m-auto mt-1 pt-5">
                     <div className="row">
 
@@ -321,7 +321,7 @@ const FooterSec = () => {
 
                             </div>
                         </div>
-                            <hr />
+                        <hr />
 
 
 
@@ -340,15 +340,17 @@ const FooterSec = () => {
                 {
                     show &&
 
-                    <div className="col-5 bg-white py-4 px-4 lang">
+                    <div className="col-sm-5 col-11 bg-white py-4 px-4 lang">
                         <div className="row">
 
                             {
                                 flags.map((val) => {
 
                                     return (
-                                        <div className="col-1 p-2 my-1 card1">
-                                            <img src={val} alt="" className='img-fluid' />
+                                        <div className="col-1 p-sm-2 p-1 my-1 card1">
+                                            <div className="col-12  ">
+                                                <img src={val} alt="" className='img-fluid' />
+                                            </div>
                                         </div>
                                     )
                                 })
