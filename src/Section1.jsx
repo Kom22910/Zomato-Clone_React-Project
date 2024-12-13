@@ -47,10 +47,6 @@ const Section1 = () => {
                 <div className="row">
 
                     {/* card 1 */}
-
-
-
-
                     {
                         cardInfo.map((val) => {
 

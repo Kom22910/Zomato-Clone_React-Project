@@ -64,6 +64,8 @@
                 color: black;
                 cursor: pointer;
             }
+
+
         }
     }
 
@@ -293,7 +295,6 @@
             .icons{
                 margin-top: 5% !important;
                 padding-top: 5% !important;
-                margin-bottom: 5% !important;
                 border-top: 1px solid rgba(0, 0, 0, 0.236);
             }
         }
@@ -301,7 +302,7 @@
     
     
         .section3{
-            margin: 3% 0% !important ;
+            margin: 0% 0% !important ;
             p{
                 font-size: 16px;
                 font-weight: 500;

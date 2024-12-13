@@ -217,7 +217,7 @@ const FooterSec = () => {
 
 
                         {/* Section 2 */}
-                        <div className="col-12 section2 mt-5">
+                        <div className="col-12 section2 mt-5 ">
                             <div className="row">
 
 
@@ -283,11 +283,11 @@ const FooterSec = () => {
 
 
                                 {/* part 5 */}
-                                <div className="col-md-3 col-11 part1 icons m-auto text-center py-md-0 py-2 ">
+                                <div className="col-md-4 col-11 part1 icons  mt-sm-1 m-auto text-center py-md-0 py-2  ">
                                     <h5 className='mb-3 para'>SOCIAL LINKS</h5>
 
                                     {/* element 1 */}
-                                    <div className="col-8 ele1 m-md-2 m-auto imp">
+                                    <div className="col-8 ele1 m-auto imp ps-sm-4">
                                         <div className="row">
                                             {
                                                 icon.map((val) => {
@@ -306,13 +306,13 @@ const FooterSec = () => {
                                     </div>
 
                                     {/* element 2 */}
-                                    <div className="col-md-9 col-sm-4 col-5 mt-3 m-auto">
+                                    <div className="col-md-5 col-sm-4 col-5 mt-3 m-auto">
                                         <img src="MainPageAsset/10035.webp" alt="" className='d-block w-md-75 w-100' />
                                     </div>
 
 
                                     {/* element 3 */}
-                                    <div className="col-md-9 col-sm-4 col-5 mt-3 m-auto">
+                                    <div className="col-md-5 col-sm-4 col-5 mt-3 m-auto">
                                         <img src="MainPageAsset/10034.webp" alt="" className='d-block w-md-75 w-100' />
                                     </div>
 

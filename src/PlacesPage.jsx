@@ -66,7 +66,7 @@ const PlacesPage = () => {
             title: "Plunge",
             star: 4.3,
             p1: "Bar Food, North Indian, Chines ",
-            p2:"Koregaon Park, Pune",
+            p2: "Koregaon Park, Pune",
             price: "2,500",
             minute: 2.7
         },
@@ -82,7 +82,7 @@ const PlacesPage = () => {
             title: "The Game Palacio",
             star: 4.5,
             p1: "Pizza, Sushi, Asian, Italian ",
-            p2:"The Mills, Bund Garden Road, Pune",
+            p2: "The Mills, Bund Garden Road, Pune",
             price: "1,400",
             minute: 1.9
         },
@@ -98,7 +98,7 @@ const PlacesPage = () => {
             title: "Persian Darbar",
             star: 4.4,
             p1: "Pizza, Sushi, Asian, Italian ",
-            p2:"Camp Area, Pune",
+            p2: "Camp Area, Pune",
             price: "1,200",
             minute: 1.8
         },
@@ -114,7 +114,7 @@ const PlacesPage = () => {
             title: "Feast - Sheraton Grand",
             star: 4.3,
             p1: "Pizza, Sushi, Asian, Italian ",
-            p2:"Sheraton Grand, Bund Garden Road, Pune",
+            p2: "Sheraton Grand, Bund Garden Road, Pune",
             price: "1,000",
             minute: 1.8
         },
@@ -130,7 +130,7 @@ const PlacesPage = () => {
             title: "Millers - The Luxury Club",
             star: 4.3,
             p1: "Pizza, Sushi, Asian, Italian ",
-            p2:"Sheraton Grand, Bund Garden Road, Pune",
+            p2: "Sheraton Grand, Bund Garden Road, Pune",
             price: "1,000",
             minute: 2
         },
@@ -146,7 +146,7 @@ const PlacesPage = () => {
             title: "Mamagoto",
             star: 4.3,
             p1: "Pizza, Sushi, Asian, Italian ",
-            p2:"The Pavillion, Senapati Bapat Road, Pu",
+            p2: "The Pavillion, Senapati Bapat Road, Pu",
             price: "1,200",
             minute: 2
         },
@@ -162,7 +162,7 @@ const PlacesPage = () => {
             title: "Ventana",
             star: 4.5,
             p1: "Pizza, Sushi, Asian, Italian ",
-            p2:"The Pavillion, Senapati Bapat Road, Pu",
+            p2: "The Pavillion, Senapati Bapat Road, Pu",
             price: "1,200",
             minute: 7
         },
@@ -176,7 +176,7 @@ const PlacesPage = () => {
             title: "2BHK Diner & Key Club",
             star: 4.3,
             p1: "Pizza, Sushi, Asian, Italian ",
-            p2:"The Pavillion, Senapati Bapat Road, Pu",
+            p2: "The Pavillion, Senapati Bapat Road, Pu",
             price: "3,000",
             minute: 2
         },
@@ -192,7 +192,7 @@ const PlacesPage = () => {
             title: "Fountain House",
             star: 4.2,
             p1: "Pizza, Sushi, Asian, Italian ",
-            p2:"Shivaji Nagar, Pune",
+            p2: "Shivaji Nagar, Pune",
             price: "900",
             minute: 3
         },
@@ -208,7 +208,7 @@ const PlacesPage = () => {
             title: "Hakuna Matata",
             star: 4.2,
             p1: "Pizza, Sushi, Asian, Italian ",
-            p2:"Shivaji Nagar, Pune",
+            p2: "Shivaji Nagar, Pune",
             price: "1,900",
             minute: 1.2
         },
@@ -224,7 +224,7 @@ const PlacesPage = () => {
             title: "Hakuna Matata",
             star: 4.2,
             p1: "Pizza, Sushi, Asian, Italian ",
-            p2:"Shivaji Nagar, Pune",
+            p2: "Shivaji Nagar, Pune",
             price: "1,900",
             minute: 1.2
         },
@@ -240,7 +240,7 @@ const PlacesPage = () => {
             title: "360 Degree - The Revolving Fine",
             star: 4.0,
             p1: "Pizza, Sushi, Asian, Italian ",
-            p2:"Shivaji Nagar, Pune",
+            p2: "Shivaji Nagar, Pune",
             price: "1,400",
             minute: 1.9
         },
@@ -256,7 +256,7 @@ const PlacesPage = () => {
             title: "AMBARSARIYA - Authentic Am",
             star: 4.6,
             p1: "Pizza, Sushi, Asian, Italian ",
-            p2:"Shivaji Nagar, Pune",
+            p2: "Shivaji Nagar, Pune",
             price: "1,000",
             minute: 2.7
         },
@@ -273,7 +273,7 @@ const PlacesPage = () => {
             title: "Addah - The O Hotel",
             star: 4.2,
             p1: "Pizza, Sushi, Asian, Italian ",
-            p2:"Shivaji Nagar, Pune",
+            p2: "Shivaji Nagar, Pune",
             price: "3,000",
             minute: 2.9
         },
@@ -289,7 +289,7 @@ const PlacesPage = () => {
             title: "Ava Artisan Kitchen & Bar",
             star: 4.2,
             p1: "Pizza, Sushi, Asian, Italian ",
-            p2:"Shivaji Nagar, Pune",
+            p2: "Shivaji Nagar, Pune",
             price: "3,000",
             minute: 2.9
         },
@@ -305,7 +305,7 @@ const PlacesPage = () => {
             title: "Ava Artisan Kitchen & Bar",
             star: 4.2,
             p1: "Pizza, Sushi, Asian, Italian ",
-            p2:"Shivaji Nagar, Pune",
+            p2: "Shivaji Nagar, Pune",
             price: "3,000",
             minute: 2.9
         },
@@ -321,7 +321,7 @@ const PlacesPage = () => {
             title: "Mask Club",
             star: 4.2,
             p1: "Pizza, Sushi, Asian, Italian ",
-            p2:"Shivaji Nagar, Pune",
+            p2: "Shivaji Nagar, Pune",
             price: "3,000",
             minute: 2.9
         },
@@ -337,7 +337,7 @@ const PlacesPage = () => {
             title: "Cherie",
             star: 4.2,
             p1: "Pizza, Sushi, Asian, Italian ",
-            p2:"Shivaji Nagar, Pune",
+            p2: "Shivaji Nagar, Pune",
             price: "3,000",
             minute: 2.9
         },
@@ -353,7 +353,7 @@ const PlacesPage = () => {
             title: "High Garden",
             star: 4.2,
             p1: "Pizza, Sushi, Asian, Italian ",
-            p2:"Shivaji Nagar, Pune",
+            p2: "Shivaji Nagar, Pune",
             price: "3,000",
             minute: 2.9
         },
@@ -369,7 +369,7 @@ const PlacesPage = () => {
             title: "Klinq - Cocktails & Cuisinen",
             star: 4.2,
             p1: "Pizza, Sushi, Asian, Italian ",
-            p2:"Shivaji Nagar, Pune",
+            p2: "Shivaji Nagar, Pune",
             price: "3,000",
             minute: 2.9
         },
@@ -385,7 +385,7 @@ const PlacesPage = () => {
             title: "Publiq",
             star: 4.1,
             p1: "Pizza, Sushi, Asian, Italian ",
-            p2:"Shivaji Nagar, Pune",
+            p2: "Shivaji Nagar, Pune",
             price: "3,000",
             minute: 2.8
         },
@@ -401,7 +401,7 @@ const PlacesPage = () => {
             title: "Heads Up Rooftop Bar",
             star: 4.1,
             p1: "Pizza, Sushi, Asian, Italian ",
-            p2:"Shivaji Nagar, Pune",
+            p2: "Shivaji Nagar, Pune",
             price: "3,000",
             minute: 2.8
         },
@@ -417,7 +417,7 @@ const PlacesPage = () => {
             title: "Heads Up Rooftop Bar",
             star: 4.1,
             p1: "Pizza, Sushi, Asian, Italian ",
-            p2:"Shivaji Nagar, Pune",
+            p2: "Shivaji Nagar, Pune",
             price: "3,000",
             minute: 2.8
         },
@@ -433,7 +433,7 @@ const PlacesPage = () => {
             title: "Akasa Poolbar & Kitchen",
             star: 4.1,
             p1: "Pizza, Sushi, Asian, Italian ",
-            p2:"Shivaji Nagar, Pune",
+            p2: "Shivaji Nagar, Pune",
             price: "3,000",
             minute: 2.8
         },
@@ -449,7 +449,7 @@ const PlacesPage = () => {
             title: "CHA",
             star: 4.1,
             p1: "Pizza, Sushi, Asian, Italian ",
-            p2:"Shivaji Nagar, Pune",
+            p2: "Shivaji Nagar, Pune",
             price: "3,000",
             minute: 2.8
         },
@@ -468,24 +468,24 @@ const PlacesPage = () => {
                 <div className="row">
 
                     {/* header section  */}
-                    <header className='col-10 m-auto p-4'>
+                    <header className='col-sm-10 m-auto p-sm-4 p-3'>
                         <div className="row">
 
                             {/* section 1 */}
-                            <div className="col-2 sec1">
+                            <div className="col-sm-2 col-4 sec1">
                                 <NavLink to='/'>
-                                    <img src="MainPageAsset/10028.webp" alt="" className='d-block w-75' />
+                                    <img src="MainPageAsset/10028.webp" alt="" className='d-block w-sm-75 w-100' />
                                 </NavLink>
                             </div>
 
                             {/* section 2 */}
-                            <div className="col-7">
-                                <div className="col-12">
-                                    <div className="col-12 bg-white px-3 py-2 part3">
+                            <div className="ol-sm-7 col-8 ">
+                                <div className="col-12 py-2">
+                                    <div className="col-12 bg-white px-sm-3 py-sm-2 part3">
                                         <div className="row">
 
                                             {/* first element */}
-                                            <div className="col-5">
+                                            <div className="col-5 dis">
                                                 <div className="row">
 
                                                     <div className="col-2">
@@ -505,14 +505,14 @@ const PlacesPage = () => {
                                             </div>
 
                                             {/* second element */}
-                                            <div className="col-7">
+                                            <div className="col-sm-7 col-11 m-auto ">
                                                 <div className="row">
 
-                                                    <div className="col-1">
+                                                    <div className="col-sm-1 col-2 flex-karo">
                                                         <img src="MainPageAsset/10005.svg" alt="Location" />
                                                     </div>
 
-                                                    <div className="col-11">
+                                                    <div className="col-sm-11 col-10  px-sm-2 px-0">
                                                         <input type="text" placeholder="Search for restaurant , cuisine or a dish" className="form-control border border-light" />
                                                     </div>
                                                 </div>
@@ -525,7 +525,7 @@ const PlacesPage = () => {
 
 
                             {/* section 3 */}
-                            <div className="col-2 sec3 ms-auto">
+                            <div className="col-sm-2 col-5 sec3 ms-auto px-sm-2 dis">
                                 <div className="row">
 
                                     <div className="col-5  m-auto fw-bold">
@@ -546,12 +546,12 @@ const PlacesPage = () => {
 
 
                     {/* Section  */}
-                    <section className='col-12 m-auto pb-5 mb-3  '>
+                    <section className='col-12 m-auto p-0 py-5'>
 
                         {/* section 1 */}
-                        <div className="col-12 p-2 py-5 mb-3 section1">
+                        <div className="col-12 p-2 py-sm-5 section1">
                             <div className="row">
-                                <div className="col-10 m-auto pb-5">
+                                <div className="col-sm-10 col-11 m-auto pb-sm-5">
                                     <Section2 />
                                 </div>
 
@@ -563,7 +563,7 @@ const PlacesPage = () => {
 
 
                         {/* Section 2  */}
-                        <div className="col-10 m-auto section3 pb-5">
+                        <div className="col-sm-10 col-11 p-2 py-sm-5 py-4 m-auto section3 pb-5">
 
                             {/* part 1 */}
                             <div className="col-12 part1">
@@ -572,7 +572,7 @@ const PlacesPage = () => {
 
 
                             <div className="col-12 part2">
-                                <div className="row px-3">
+                                <div className="row px-sm-3">
 
                                     {/* cards */}
 
@@ -582,7 +582,7 @@ const PlacesPage = () => {
                                         cardinfo2.map((val) => {
 
                                             return (
-                                                <div className="col-4 p-3" key={val.id}>
+                                                <div className="col-sm-4 col-11 m-auto p-sm-3 my-sm-0 my-3" key={val.id}>
                                                     <div className="col-12 card_part">
 
                                                         {/* card part 1 */}
@@ -595,7 +595,7 @@ const PlacesPage = () => {
                                                         </div>
 
                                                         {/* card part 2 */}
-                                                        <div className="col-12 px-3 card_part2 mt-2">
+                                                        <div className="col-12 px-sm-3 px-2 card_part2 mt-2">
 
                                                             {/* *********************** */}
                                                             <div className="row">
@@ -610,7 +610,7 @@ const PlacesPage = () => {
 
 
                                                             {/* ************************ */}
-                                                            <div className="row">
+                                                            <div className="row py-sm-0 py-1">
                                                                 <div className="col-7">
                                                                     <p className='a1'>{val.p1}</p>
                                                                 </div>
@@ -623,7 +623,7 @@ const PlacesPage = () => {
                                                             {/***************************************** * */}
 
 
-                                                            <div className="row">
+                                                            <div className="row pb-sm-1 pb-2">
 
                                                                 <div className="col-8">
                                                                     <p className='a1'>{val.p2}</p>
@@ -649,7 +649,7 @@ const PlacesPage = () => {
                         </div>
 
                         {/* section 4 */}
-                        <div className="col-10 m-auto">
+                        <div className="col-sm-10 col-12 m-auto">
                             <Section5 />
                         </div>
 

@@ -523,14 +523,14 @@ const FoodPage = () => {
 
 
                             {/* section 3 */}
-                            <div className="col-sm-2 col-5 sec3 ms-auto px-sm-2 dis">
+                            <div className="col-sm-3 sec3 ms-auto px-2 dis">
                                 <div className="row">
 
-                                    <div className="col-sm-5 col-6 m-auto fw-bold px-sm-2 px-0">
+                                    <div className="col-5 m-auto fw-bold mt-3 px-0 text-center">
                                         <p onClick={() => sethide({ login: true })} className=' p1'>Log in</p>
                                     </div>
 
-                                    <div className="col-sm-5 col-6 fw-bold px-sm-2 px-0 m-auto">
+                                    <div className="col-sm-5 fw-bold mt-3 px-0 m-auto text-center">
                                         <p onClick={() => sethide({ sign: true })} className='p1'>Sign Up</p>
                                     </div>
                                 </div>
@@ -568,8 +568,8 @@ const FoodPage = () => {
                                                             <div className="col-12">
                                                                 <img src={val.path} alt="" className='d-block w-100 rounded-pill' />
                                                             </div>
-                                                            <div className="col-12">
-                                                                <p className='text-center fs-sm-4 '>{val.p}</p>
+                                                            <div className="col-12 para my-sm-3">
+                                                                <p className='text-center fs-sm-4 p1'>{val.p}</p>
                                                             </div>
                                                         </div>
                                                     )
@@ -593,16 +593,16 @@ const FoodPage = () => {
 
                             {/* part 2 */}
                             <div className="col-12 second">
-                                <div className="row px-sm-5 my-sm-5">
+                                <div className="row px-sm-5 my-sm-5 pb-sm-0 mb-sm-0">
 
                                     {
                                         brandinfo.map((val) => {
                                             return (
                                                 <div className="col-sm-2 col-4 my-sm-0 my-2" key={val.id}>
-                                                    <div className="col-12  image" style={{ backgroundColor: val.color }}>
+                                                    <div className="col-12 image" style={{ backgroundColor: val.color }}>
                                                         <img src={val.path} alt="" className='d-block' />
                                                     </div>
-                                                    <div className="col-12 para">
+                                                    <div className="col-12 para my-sm-3">
                                                         <p className='text-center fs-sm-5 mb-0 p1'>{val.p}</p>
                                                         <p className='text-center p2'>31 min</p>
                                                     </div>
@@ -616,7 +616,7 @@ const FoodPage = () => {
 
 
                         {/* Section 3  */}
-                        <div className="col-sm-10 col-11 p-2 py-sm-5 py-4 m-auto section3 pb-5">
+                        <div className="col-sm-10 col-11 p-2 py-sm-0 py-4 mt-sm-0 m-auto section3">
 
                             {/* part 1 */}
                             <div className="col-12 part1">
@@ -625,7 +625,7 @@ const FoodPage = () => {
 
 
                             <div className="col-12 part2">
-                                <div className="row px-am-3">
+                                <div className="row px-sm-3">
 
 
 
@@ -668,7 +668,7 @@ const FoodPage = () => {
                                                                     <p className='a1'>{val.p1}</p>
                                                                 </div>
 
-                                                                <div className="col-SM-4 col-6 ms-auto text-end">
+                                                                <div className="col-sm-4 col-6 ms-auto text-end">
                                                                     <p>&#8377;{val.price} for one</p>
                                                                 </div>
                                                             </div>

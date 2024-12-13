@@ -25,8 +25,10 @@ const InvestorPage = () => {
                             {/* Section  */}
                             <ISection/>
 
-
-                            <FooterSec/>
+                            {/* footer */}
+                            <div>
+                                <FooterSec/>
+                            </div>
                             
 
                 </div>
