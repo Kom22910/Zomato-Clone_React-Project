@@ -81,7 +81,7 @@ body {
 }
 
 
-@media screen and (max-width:420px) and (min-width:360px){
+@media screen and (max-width:420px) and (min-width:359px){
     
     .hsection{
         height: 50vh;
