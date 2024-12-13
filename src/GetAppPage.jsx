@@ -32,7 +32,7 @@ const GetAppPage = () => {
 
                             {/* part 1 */}
                             <div className="col-sm-6 col-4 pt-md-1 pt-2">
-                                <div className="col-sm-3 col-9 ms-auto ">
+                                <div className="col-sm-3 col-10 ms-auto ">
                                     <NavLink to="/">
                                         <img src="MainPageAsset/10028.webp" alt="Zomato" className="d-block w-100" />
                                     </NavLink>
@@ -40,7 +40,7 @@ const GetAppPage = () => {
                             </div>
 
                             {/* part2 */}
-                            <div className="col-sm-3 col-7 m-sm-auto ms-auto part2">
+                            <div className="col-sm-3 col-8 m-sm-auto ms-auto part2">
                                 <div className="row">
 
                                     <div className="col-sm-4 col-6 text-sm-center text-end">

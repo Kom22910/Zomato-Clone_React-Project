@@ -29,12 +29,12 @@ const Sec5Line = ({ p, path, fun, list, s }) => {
                     {
                         s && (
 
-                            <ul>
+                            <ul className='col-12 px-sm-5 px-4'>
                                 {
 
                                     list.map((val) => {
                                         return (
-                                            <li className='my-1 ms-4 me-4'>
+                                            <li className='col-sm-2 col-6 my-sm-2 my-1'>
                                                 <span>{val}</span>
                                             </li>
                                         )

@@ -183,24 +183,13 @@ const FooterSec = () => {
                                         </div>
 
                                         <div className="col-md-4 col-3 icon py-2">
-                                            <div className="row">
+                                            <div className="row pt-sm-2">
                                                 <div className="col-md-4 col-sm-7 col-8 r1">
                                                     <img src="MainPageAsset/10011.svg" alt="" className='d-block w-100' />
                                                 </div>
 
                                                 <div className="col-5 r1 dis">
                                                     English
-                                                </div>
-
-                                                <div className="col-2 r1 r2 dis">
-
-                                                    <p>
-                                                        {
-                                                            show ? (
-                                                                <i class="bi bi-chevron-up"></i>
-                                                            ) : (<i class="bi bi-chevron-down"></i>)
-                                                        }
-                                                    </p>
                                                 </div>
                                             </div>
 

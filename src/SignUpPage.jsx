@@ -2,10 +2,15 @@
 
 
 
-import React, { StrictMode } from 'react';
+import React, { StrictMode, useState } from 'react';
 import './RestPage.css';
+import LoginPage from './LoginPage';
 
 const SignUpPage = ({close}) => {
+
+    const [show , setHide] = useState(false);
+
+
     return (
 
         <StrictMode>
@@ -96,14 +101,17 @@ const SignUpPage = ({close}) => {
 
                     {/* section 7 */}
                     <div className="col-12 px-3 mt-4 section6">
-                        <p>Already have an account? <span className='text-danger'>Log in</span></p>
+                        <p>Already have an account? <span className='text-danger'  onClick={()=>setHide(true)}>Log in</span></p>
                     </div>
 
 
-
+            
 
                 </div>
 
+                    {
+                        show && (<LoginPage close={()=>setHide(false)}/>)
+                    }
             </div>
 
         </StrictMode>

@@ -49,7 +49,7 @@ const Isection4 = () => {
                             info.map((val) => {
                                 return (
                                     <div className="col-sm-4 col-11 m-auto p-3">
-                                        <div className="col-12 card1">
+                                        <div className="col-12 card1 pb-3">
 
 
 

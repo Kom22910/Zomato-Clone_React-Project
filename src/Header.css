@@ -12,6 +12,16 @@ body {
 
     .hsection1 {
 
+        .part1{
+            p{
+                font-size: 20px;
+                font-weight: 500;
+            }
+        }
+
+        .p1{
+            text-align: center;
+        }
 
         p{
             color: white;
@@ -92,7 +102,10 @@ body {
     .hsection1{
         
         .part1{
-            font-size: 12px;
+            p{
+                font-size: 12px !important;
+                font-weight: 500;
+            }
         }
 
         .part2{

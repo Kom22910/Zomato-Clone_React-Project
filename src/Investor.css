@@ -257,14 +257,17 @@
                 justify-content: space-between;
 
                 li {
-                    font-size: 10px;
+                    font-size: 9px;
                     /* background-color: aqua; */
                     letter-spacing: 0px;
                     color: white;
+                    font-weight: 500;
+                   
+                    margin-right: 1%;
                 }
 
                 li:hover {
-                    font-weight: 500;
+                    font-weight: 700;
 
                     i {
                         font-size: 10px;
@@ -362,7 +365,7 @@
                 }
 
                 .p2 {
-                    height: 12vh;
+                    height: 17vh;
                 }
 
                 .p {
@@ -380,7 +383,7 @@
 
 
                 .card_body {
-                    height: 25vh;
+                    height: 30vh;
                 }
             }
         }
@@ -397,7 +400,7 @@
                 .ele1 {
                     overflow-y: hidden;
                     border-radius: 10px;
-                    height: 34vh;
+                    height: 30vh;
                     position: relative;
 
                     img {

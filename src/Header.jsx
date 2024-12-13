@@ -26,7 +26,7 @@ const HeaderSection = () => {
                         <div className="row">
 
                             {/* part 1 */}
-                            <div className="col-md-2 col-4 text-md-center part1">
+                            <div className="col-md-4 col-4 text-md-center part1">
                                 <NavLink to="/mobile" className="nav-link">
                                     <p>
                                         <i class="bi bi-google-play"></i> Get the App
@@ -38,17 +38,17 @@ const HeaderSection = () => {
                             <div className="col-md-6 col-8 ms-auto part2">
                                 <div className="row">
 
-                                    <div className="col-md-4 col-6">
+                                    <div className="col-md-5 col-6">
                                         <NavLink to="/invest" className="nav-link">
                                             <p className="p1">Investor Relations</p>
                                         </NavLink>
                                     </div>
 
-                                    <div className="col-md-2 col-3">
+                                    <div className="col-md-3 col-3">
                                         <p onClick={() => sethide({ login: true })} className="p1">Log in</p>
                                     </div>
 
-                                    <div className="col-md-2 col-3">
+                                    <div className="col-md-3 col-3">
                                         <p onClick={() => sethide({ sign: true })} className="p1">Sign Up</p>
                                     </div>
 
