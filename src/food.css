@@ -1,5 +1,20 @@
+
+.foodpage{
+    overflow-x: hidden;
+}
+
+
+
+
 header {
 
+    .dis{
+        display: block;
+    }
+
+    .vis{
+        display: none;
+    }
 
     .sec1 {
         display: flex;
@@ -30,7 +45,13 @@ header {
 
 
 
+
+
 section {
+
+    
+
+
 
     .section1 {
         background-color: #F8F8F8;
@@ -191,8 +212,12 @@ section {
     header {
 
 
-        .dis {
+        .dis{
             display: none;
+        }
+    
+        .vis{
+            display: block;
         }
 
         .sec1 {
@@ -242,6 +267,8 @@ section {
     }
 
     section {
+
+        
 
         .section1 {
             background-color: #F8F8F8;
@@ -317,7 +344,7 @@ section {
                     border-radius: 20px;
 
                     img{
-                        width: 120% !important;
+                        width: 200% !important;
                         
                     }
 

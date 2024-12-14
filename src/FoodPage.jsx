@@ -462,7 +462,7 @@ const FoodPage = () => {
     return (
         <StrictMode>
 
-            <div className="container-fluid">
+            <div className="container-fluid foodpage">
                 <div className="row">
 
                     {/* header section  */}
@@ -477,7 +477,7 @@ const FoodPage = () => {
                             </div>
 
                             {/* section 2 */}
-                            <div className="col-sm-7 col-8 ">
+                            <div className="col-sm-7 col-8 dis ">
                                 <div className="col-12 py-2">
                                     <div className="col-12 bg-white px-sm-3 py-sm-2 part3">
                                         <div className="row">
@@ -523,18 +523,67 @@ const FoodPage = () => {
 
 
                             {/* section 3 */}
-                            <div className="col-sm-3 sec3 ms-auto px-2 dis">
+                            <div className="col-sm-3 col-5 sec3 ms-auto me-sm-1 me-3 px-2 ">
                                 <div className="row">
 
-                                    <div className="col-5 m-auto fw-bold mt-3 px-0 text-center">
+                                    <div className="col-sm-5 col-6 m-sm-auto fw-bold px-0 text-center pt-3">
                                         <p onClick={() => sethide({ login: true })} className=' p1'>Log in</p>
                                     </div>
 
-                                    <div className="col-sm-5 fw-bold mt-3 px-0 m-auto text-center">
+                                    <div className="col-sm-5 col-6 fw-bold px-0 m-sm-auto text-center  pt-3">
                                         <p onClick={() => sethide({ sign: true })} className='p1'>Sign Up</p>
                                     </div>
                                 </div>
                             </div>
+
+
+
+
+                            {/* section 4 */}
+                            <div className="col-sm-7 col-12 vis ">
+                                <div className="col-12 py-sm-2">
+                                    <div className="col-12 bg-white my-sm-0 my-3 px-sm-3 py-sm-2 py-1 part3">
+                                        <div className="row">
+
+                                            {/* first element */}
+                                            <div className="col-5 ">
+                                                <div className="row">
+
+                                                    <div className="col-sm-2 col-3">
+                                                        <img src="MainPageAsset/10002.svg" alt="Location" />
+                                                    </div>
+
+                                                    <div className="col-sm-8 col-6 ps-0 pe-0">
+                                                        <input type="text" placeholder="Pune" className="form-control border border-light" />
+                                                    </div>
+
+                                                    <div className="col-sm-1 col-3">
+                                                        <img src="MainPageAsset/10003.svg" alt="Location" />
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                            {/* second element */}
+                                            <div className="col-7 m-auto " >
+                                                <div className="row">
+
+                                                    <div className="col-1 flex-karo">
+                                                        <img src="MainPageAsset/10005.svg" alt="Location" />
+                                                    </div>
+
+                                                    <div className="col-sm-11 col-10  px-sm-2 px-0">
+                                                        <input type="text" placeholder="Search for restaurant , cuisine or a dish" className="form-control border border-light" />
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
 
 
 
